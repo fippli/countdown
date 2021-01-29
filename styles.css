@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8a5c2;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Sigmar One', sans-serif;
+}
+
+main{
+  display: flex;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+#timer {
+  font-size: 5rem;
+  color: #f5cd79;
+  text-shadow: 5px 5px #63cdda;
+}
